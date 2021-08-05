@@ -1,6 +1,4 @@
 # SPECK21
-special topics willi
-
 This is the git of Willi Mickein for the course special topics in the summer semester 2021
 
 Goal is the implementation of a sensor to a drone in the px4 enviroment and the gatherig of data from it
