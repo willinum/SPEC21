@@ -95,11 +95,11 @@
       <stddev>0.02</stddev>
     </noise>
   <!-- The scan element contains the horizontal and vertical beams.
-       We are leaving out the vertical beams for this tutorial. -->
+       it can be specified if vertical and/or horizontal beams will be used -->
   <scan>
-    <!-- The horizontal beams -->
+    <!-- The vertical beams -->
     <vertical>
-      <!-- The velodyne has 32 beams(samples) -->
+      <!-- number of beams(samples) -->
       <samples>16</samples>
 
       <!-- Resolution is multiplied by samples to determine number of
