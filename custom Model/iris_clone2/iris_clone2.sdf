@@ -1047,19 +1047,7 @@
      <joint name='velo_joint' type='fixed'>
       	<parent>base_link</parent>
       	<child>velodyne_hdl-32::base</child>
-      	<pose>0 0 0 0 -0 0</pose>
-      <physics>
-        <ode>
-          <limit>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </limit>
-          <suspension>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </suspension>
-        </ode>
-      </physics>
+      	<pose>0 0 0 0 0 0</pose>
     </joint>              
   </model>
 </sdf>
